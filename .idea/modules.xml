@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/SpringBoot.iml" filepath="$PROJECT_DIR$/.idea/SpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tareas-proyectos-base/TareasProyectos.iml" filepath="$PROJECT_DIR$/tareas-proyectos-base/TareasProyectos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tareas-proyectos-mono/TareasProyectos (1).iml" filepath="$PROJECT_DIR$/tareas-proyectos-mono/TareasProyectos (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/tareas-proyectos-hexagonal/application/application.iml" filepath="$PROJECT_DIR$/tareas-proyectos-hexagonal/application/application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tareas-proyectos-hexagonal/domain/domain.iml" filepath="$PROJECT_DIR$/tareas-proyectos-hexagonal/domain/domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tareas-proyectos-hexagonal/in-memory-db-adapter/in-memory-db-adapter.iml" filepath="$PROJECT_DIR$/tareas-proyectos-hexagonal/in-memory-db-adapter/in-memory-db-adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tareas-proyectos-hexagonal/rest-api-adapter/rest-api-adapter.iml" filepath="$PROJECT_DIR$/tareas-proyectos-hexagonal/rest-api-adapter/rest-api-adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tareas-proyectos-hexagonal/tareasproyectoshex.iml" filepath="$PROJECT_DIR$/tareas-proyectos-hexagonal/tareasproyectoshex.iml" />
+    </modules>
+  </component>
+</project>
