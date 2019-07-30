@@ -9,7 +9,9 @@ import java.util.List;
 import java.util.Optional;
 
 import es.bit.TareasProyectos.models.User;
+import org.springframework.stereotype.Component;
 
+@Component
 public class InMemoryUserRepository implements UserRepository {
 	private List<User> catalogData = new ArrayList<>(Arrays.asList(
 			new User(1,"ric","r@r.com","rc1"),
