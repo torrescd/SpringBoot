@@ -9,8 +9,7 @@ import javax.validation.Valid;
 import java.util.Collection;
 
 @RestController
-@RequestMapping
-public class UserController {
+public class UsersController {
 
     @Autowired
     UsuariosService usuariosService;
@@ -22,11 +21,6 @@ public class UserController {
     }
     @RequestMapping(value = "/usuarios/{uid}", method = RequestMethod.GET)
     public User getUsersById(@PathVariable Long uid)
-    {
-        return usuariosService.findById(uid);
-    }
-    @RequestMapping(value = "/usuarios/{uid}", method = RequestMethod.PUT)
-    public User addUser(@PathVariable Long uid)
     {
         return usuariosService.findById(uid);
     }
@@ -46,7 +40,7 @@ public class UserController {
 
     }
 
-    @RequestMapping(value = "/usuarios/create", method = RequestMethod.POST)
+    @RequestMapping(value = "/usuarios/update", method = RequestMethod.POST)
     public long updateUser(@Valid @RequestBody User user){
 
         usuariosService.delete(user.getUid());
@@ -55,7 +49,6 @@ public class UserController {
 
         return newUser.getUid();
     }
-
 
 
 
