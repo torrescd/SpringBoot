@@ -1,4 +1,4 @@
-package es.bit.TareasProyectos.persistence;
+package es.bit.TareasProyectos.ports;
 
 import java.util.Collection;
 

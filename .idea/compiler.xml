@@ -9,10 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="domain" />
         <module name="in-memory-db-adapter" />
+        <module name="task-inMemory" />
+        <module name="task-rest" />
         <module name="rest-api-adapter" />
+        <module name="task-application" />
         <module name="TareasProyectos" />
         <module name="TareasProyectos (2)" />
-        <module name="TareasProyectos (1)" />
+        <module name="task-domain" />
         <module name="application" />
       </profile>
     </annotationProcessing>
@@ -25,6 +28,10 @@
       <module name="TareasProyectos (1)" target="1.8" />
       <module name="TareasProyectos (2)" target="1.8" />
       <module name="tareasproyectoshex" target="1.8" />
+      <module name="task-application" target="1.8" />
+      <module name="task-domain" target="1.8" />
+      <module name="task-inMemory" target="1.8" />
+      <module name="task-rest" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

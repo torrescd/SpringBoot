@@ -2,6 +2,10 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/tareas-proyectos-base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tareas-proyectos-base/task-application" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tareas-proyectos-base/task-domain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tareas-proyectos-base/task-inMemory" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tareas-proyectos-base/task-rest" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tareas-proyectos-hexagonal" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tareas-proyectos-hexagonal/application" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tareas-proyectos-hexagonal/domain" charset="UTF-8" />

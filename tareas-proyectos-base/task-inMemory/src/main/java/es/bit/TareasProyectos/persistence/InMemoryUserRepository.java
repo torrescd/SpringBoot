@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 import es.bit.TareasProyectos.models.User;
+import es.bit.TareasProyectos.ports.UserRepository;
 import org.springframework.stereotype.Component;
 
 @Component

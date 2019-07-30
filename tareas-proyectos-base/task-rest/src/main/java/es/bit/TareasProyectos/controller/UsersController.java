@@ -1,14 +1,13 @@
 package es.bit.TareasProyectos.controller;
 
 import es.bit.TareasProyectos.models.User;
-import es.bit.TareasProyectos.services.UsuariosService;
+import es.bit.TareasProyectos.ports.UsuariosService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import java.util.Collection;
 
 @RestController
 @RequestMapping("/rest")
@@ -33,6 +32,9 @@ public class UsersController {
     @RequestMapping(value = "/users/create", method = RequestMethod.POST)
     public ResponseEntity createUser(@Valid @RequestBody User user){
         User newUser = usuariosService.add(user);
+        if (newUser == null){
+            return new ResponseEntity(newUser, HttpStatus.INTERNAL_SERVER_ERROR);
+        }
         return new ResponseEntity(newUser.getUid(), HttpStatus.OK);
     }
 
